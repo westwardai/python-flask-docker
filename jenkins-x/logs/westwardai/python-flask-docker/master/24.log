@@ -1,19 +1,9 @@
 Step: build-step-credential-initializer:
 
-{"level":"warn","ts":1549089085.889231,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/test\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1549089085.8900964,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+Unable to retrieve container logs for docker://9752ff303335356e91237fa6eb690a2dbe9579216cce3e571d35d346a1596241
 Step: build-step-git-source-0:
 
-{"level":"warn","ts":1549089088.6315825,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/test\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1549089088.8192244,"logger":"fallback-logger","caller":"git-init/main.go:92","msg":"Successfully cloned \"https://github.com/westwardai/python-flask-docker.git\" @ \"709e6c769f3cf27d122a3f11b7a7900ac0a4b06c\" in path \"/workspace\""}
+Unable to retrieve container logs for docker://b0f8652f0448606f84f7e6b64a413b55e8571116ed35fc6af789bc985a971b4d
 Step: build-step-jenkins:
 
-Picked up _JAVA_OPTIONS: -Xmx400m
-No argument is allowed: python3
- -f (--file) FILE        : Path to Jenkinsfile (or directory containing a
-                           Jenkinsfile) to run, default to ./Jenkinsfile.
- -p (--plugins) FILE     : plugins required to run pipeline. Either a
-                           plugins.txt file or a /plugins installation
-                           directory. Defaults to plugins.txt.
- -v (--version) VAL      : jenkins version to use. Defaults to latest LTS.
- -w (--jenkins-war) FILE : path to jenkins.war or exploded jenkins war directory
+Unable to retrieve container logs for docker://66c99144a47f29462185aea85b13e42ab767ed7a121c5f46cbe2ba76e5ce8867
